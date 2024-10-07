@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+h1.text-center {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post-title {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.post-description {
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+.success {
+    color: green;
+    margin: 10px 0;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.table th {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table button:hover {
+    background-color: #c82333;
+}
+
+/* General Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Warning Button */
+.btn-warning {
+    background-color: #ffc107; /* Bootstrap warning color */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Danger Button */
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Add some focus styles for accessibility */
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+/* Custom Styles (Optional) */
+.alert {
+    padding: 20px;
+    margin-top: 20px; /* Space above the alert */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+}
+
+.btn-close {
+    opacity: 0.5; /* Slightly transparent close button */
+}
